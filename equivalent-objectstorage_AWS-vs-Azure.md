@@ -1,6 +1,10 @@
 # equivalent-objectstorage_AWS-vs-Azure
 
-なんとなく並べなおしてみた。が、Azureは「ストレージアカウント」との関係性がよく分からん。
+* なんとなく並べなおしてみた。
+* が、Azureの場合は各ストレージサービス（機能）の上位に「ストレージアカウント」という概念がいるイメージ。
+    * ストレージアカウント > Blob（オブジェクトストレージ）, File, Table, Queue
+    * ストレージアカウントの種類 <https://docs.microsoft.com/ja-jp/azure/storage/common/storage-account-overview#types-of-storage-accounts>
+    * が、「特に理由がなければ汎用v2を使え」という圧がすごい
 
 |detail|suitable storage-class name(AWS)|min. storage days|suitable storage-class name(Azure)|spec|
 |---|---|---|---|---|
