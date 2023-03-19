@@ -1,4 +1,4 @@
-# equivalent-diskstorage_AWS-vs-Azure
+# equivalent_instance-storage_AWS-vs-Azure
 
 なんとなく並べなおしてみた。
 
